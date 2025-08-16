@@ -43,7 +43,8 @@ html {
     border: 12px solid darkslategray;
 }
 
-.recipe-list li {
+.recipe-list li,
+.home {
     padding: 24px;
     margin: 24px;
     background-color: darkslategray;
@@ -52,15 +53,17 @@ html {
     border-bottom: 10px solid lightslategray;
 }
 
-.recipe-list a {
+.recipe-list li:hover,
+.home:hover {
+    background-color: black;
+    color: silver;
+}
+
+.recipe-list a,
+.home-link {
     text-decoration: none;
     color: aliceblue;
     font-weight: bold;
-}
-
-.recipe-list li:hover {
-    background-color: black;
-    color: silver;
 }
 
 .main-logo {
@@ -69,3 +72,10 @@ html {
 }
 
 /* ===== recipe pages ===== */
+
+.home {
+    width: 120px;
+    border-right-color: black;
+    border-bottom-color: black;
+    text-align: center;
+}
