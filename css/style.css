@@ -78,4 +78,20 @@ html {
     border-right-color: black;
     border-bottom-color: black;
     text-align: center;
+    float: right;
+}
+
+.title {
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    margin: 40px;
+    padding: 10px;
+    border-bottom: 8px dotted darkslategray;
+}
+
+.foodpic {
+    text-align: center;
+    margin: 50px;
+    margin-left: 160px;
 }
