@@ -2,6 +2,7 @@
 html {
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 * {
@@ -102,9 +103,50 @@ html {
     width: 700px;
     background-color: silver;
     text-align: center;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .desc {
     padding: 20px;
+}
+
+h2 {
+    color: darkslategray;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px;
+    margin-bottom: 25px;
+}
+
+.list,
+.list li,
+.list li strong,
+.list li em {
+    width: 700px;
+    background-color: silver;
+    margin: 10px auto;
+}
+
+.ing {
+    padding-left: 60px;
+}
+
+.list li {
+    padding: 6px;
+    padding-left: 12px;
+    width: 600px;
+}
+
+ul.list,
+ol.list {
+    margin: 30px auto;
+    padding: 30px;
+}
+
+strong {
+    color: brown;
+}
+
+.ing li em {
+    color: darkslategray;
 }
