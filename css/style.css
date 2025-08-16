@@ -95,3 +95,16 @@ html {
     margin: 50px;
     margin-left: 160px;
 }
+
+.desc,
+.desc strong,
+.desc em {
+    width: 700px;
+    background-color: silver;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.desc {
+    padding: 20px;
+}
