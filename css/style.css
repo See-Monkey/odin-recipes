@@ -7,31 +7,31 @@ html {
 * {
     box-sizing: inherit;
     margin: 0;
-    background-color: burlywood;
+    background-color: lightslategray;
 }
 
 /* ===== index page ===== */
 .main-title {
     width: 700px;
     margin: 100px auto;
-    background-color: peru;
-    border: 17px solid goldenrod;    
+    background-color: cornflowerblue;
+    border: 17px solid darkslategray;    
 }
 
 .main-odin {
     font-weight: bold;
     font-size: 50px;
-    margin-left: 90px;
-    background-color: peru;
-    color: gray;
+    margin-left: 110px;
+    background-color: cornflowerblue;
+    color: lightskyblue;
 }
 
 .main-recipes {
     font-weight: bold;
     font-size: 100px;
-    margin-left: 30px;
+    margin-left: 5px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: peru;
+    background-color: cornflowerblue;
     color: darkslategray;
 }
 
@@ -39,21 +39,33 @@ html {
     width: 380px;
     padding: 10px 50px;
     margin: 20px auto;
-    background-color: peru;
-    border: 12px solid goldenrod;
+    background-color: cornflowerblue;
+    border: 12px solid darkslategray;
 }
 
 .recipe-list li {
     padding: 24px;
     margin: 24px;
-    background-color: goldenrod;
-    border: 5px solid chocolate;
+    background-color: darkslategray;
+    border: 5px solid lightskyblue;
+    border-right: 10px solid lightslategray;
+    border-bottom: 10px solid lightslategray;
 }
 
 .recipe-list a {
     text-decoration: none;
-    color: darkslategray;
+    color: aliceblue;
     font-weight: bold;
+}
+
+.recipe-list li:hover {
+    background-color: black;
+    color: silver;
+}
+
+.main-logo {
+    width: 200px;
+    margin: 90px auto -50px auto;
 }
 
 /* ===== recipe pages ===== */
